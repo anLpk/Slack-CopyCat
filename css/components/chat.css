@@ -1,1 +1,22 @@
+.conversations {
+  margin-top: 20px;
+  margin-left: 30px;
+}
 
+.text-box {
+  display: flex;
+}
+
+.fa-slack-hash {
+  font-size: 22px;
+  position: relative;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.text-box .text-content p:first-child {
+  margin-bottom: 0;
+}
