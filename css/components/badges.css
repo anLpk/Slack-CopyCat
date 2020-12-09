@@ -1,7 +1,65 @@
 .badges {
   background-color: #4b3949;
+  color: white;
+  width: 200px;
+  padding: 16px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+span {
+  opacity: 0.6;
 }
 
 ul {
   list-style: none;
+}
+
+.online-badge {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #1fe5bd;
+  margin-top: 10px;
+  margin-right: 8px;
+}
+
+.offline-badge {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+  margin-top: 10px;
+  margin-right: 8px;
+  opacity: 0.5;
+}
+
+.list {
+  justify-content: space-between;
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+.person {
+  display: flex;
+  vertical-align: middle;
+}
+
+.plus {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+.channel-item.active span {
+  opacity: 1;
+}
+
+.fa-plus {
+  position: relative;
+  top: 4px;
 }
